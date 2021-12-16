@@ -1,3 +1,3 @@
 #!/usr/bin/env ruby -ryaml -rjson -ropen-uri
 t,f,v=ARGV
-puts JSON.load(open('https://qglf.github.io/a/'+t)).filter{|r|r[f]==JSON.load(v)}.to_yaml#fixme:P
+puts JSON.load(open('https://qglf.github.io/a/'+t)).filter{|r|r[f]==JSON.load(v)}.to_yaml #fixme
