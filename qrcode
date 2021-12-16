@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
 echo "154 should drop down to v7"
-wc -c long.rb
-cat long.rb | qrencode --verbose -o long.png
-open long.png
+wc -c search
+cat search | qrencode --verbose -o search.png
+open search.png
